@@ -149,7 +149,7 @@ class Game extends React.Component {
         return (
             <div>
                 <div className="jumbotron">
-                    <h1>Repeat that sequence!</h1>
+                    <h1>Repeat That Sequence!</h1>
                     <p>Repeat Simon's sequence and it will add another button for you to repeat. Get a high score, and you might just get on the leaderboard.</p>
                     <p>Press the spacebar or the start button to begin!</p>
                     <button className="start-button" onClick={() => this.gameButtonClick("start")}>
